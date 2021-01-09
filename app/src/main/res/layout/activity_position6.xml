@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Position6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/position6_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:textSize="36sp"
+            android:text="←"
+            android:textColor="@color/qmui_s_link_color"
+            app:qmui_borderColor="@color/White"
+            app:qmui_isRadiusAdjustBounds="true"
+            app:qmui_radius="15dp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="色盲/色弱对生活常见的影响"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="@color/qmui_s_link_color"
+            android:layout_marginBottom="35dp"
+            android:textSize="36sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/qmui_s_link_color"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:textSize="24sp"
+            android:text="        常见的影响有：较难辨别红绿灯，部分工作对色彩识别用一定要求，生活中可能导致衣服颜色搭配奇怪，难以辨别食物是否熟了等等"
+            tools:ignore="MissingConstraints"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

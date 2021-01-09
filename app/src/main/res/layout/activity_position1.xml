@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Position0"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/position1_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:textSize="36sp"
+            android:text="←"
+            android:textColor="@color/qmui_s_link_color"
+            app:qmui_borderColor="@color/White"
+            app:qmui_isRadiusAdjustBounds="true"
+            app:qmui_radius="15dp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="色 盲/色 弱 的 种 类？"
+            android:layout_gravity="center"
+            android:textColor="@color/qmui_s_link_color"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="35dp"
+            android:textSize="36sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/qmui_s_link_color"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:textSize="24sp"
+            android:text="        色盲分为全色盲和部分色盲(红色盲、绿色盲、蓝黄色盲等)。色弱包括全色弱和部分色弱(红色弱、绿色弱、蓝黄色弱等)。"
+            tools:ignore="MissingConstraints"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

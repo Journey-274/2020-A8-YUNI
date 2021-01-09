@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Position5"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/position5_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:textSize="36sp"
+            android:text="←"
+            android:textColor="@color/qmui_s_link_color"
+            app:qmui_borderColor="@color/White"
+            app:qmui_isRadiusAdjustBounds="true"
+            app:qmui_radius="15dp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="色盲/色弱对生活的影响大吗？"
+            android:textColor="@color/qmui_s_link_color"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="35dp"
+            android:textSize="36sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/qmui_s_link_color"
+            android:textSize="24sp"
+            android:text="        色盲由于对颜色的分辨能力有障碍，不适宜从事美术、纺织、印染、化工等需色觉敏感的工作。不能参军，不能开车，也不适合从事医院工作。"
+            tools:ignore="MissingConstraints"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

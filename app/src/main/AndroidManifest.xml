@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yuni">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pinglun" android:windowSoftInputMode="stateHidden|adjustResize"></activity>
+        <activity android:name=".Camera" />
+        <activity android:name=".P_test" />
+        <activity android:name=".SM.SM_4" />
+        <activity android:name=".SM.SM_3" />
+        <activity android:name=".SM.SM_2" />
+        <activity android:name=".SM.SM_1" />
+        <activity android:name=".SM.SM_0" />
+        <activity android:name=".Position7" />
+        <activity android:name=".Position6" />
+        <activity android:name=".Position5" />
+        <activity android:name=".Position4" />
+        <activity android:name=".Position3" />
+        <activity android:name=".Position2" />
+        <activity android:name=".Position1" />
+        <activity android:name=".Position0" />
+        <activity android:name=".Opinion" />
+        <activity android:name=".Us" />
+        <activity android:name=".Tieshi" />
+        <activity android:name=".Picture_test" />
+        <activity android:name=".Semang_test" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Position0"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/position0_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:textSize="36sp"
+            android:text="←"
+            android:textColor="@color/qmui_s_link_color"
+            app:qmui_borderColor="@color/White"
+            app:qmui_isRadiusAdjustBounds="true"
+            app:qmui_radius="15dp"
+            tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="什 么 是 色 盲/色 弱？"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/qmui_s_link_color"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="35dp"
+        android:textSize="36sp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/qmui_s_link_color"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:text="        先天性色觉障碍通常称为色盲，它不能分辨自然光谱中的各种颜色或某种颜色；而对颜色的辨别能力差的则称色弱，色弱者，虽然能看到正常人所看到的颜色，但辨认颜色的能力迟缓或很差，在光线较暗时，有的几乎和色盲差不多，或表现为色觉疲劳，它与色盲的界限一般不易严格区分。色盲与色弱以先天性因素为多见。男性患者远多于女性患者。"
+        tools:ignore="MissingConstraints"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

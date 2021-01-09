@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Position7">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/position7_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:textSize="36sp"
+            android:text="←"
+            android:textColor="@color/qmui_s_link_color"
+            app:qmui_borderColor="@color/White"
+            app:qmui_isRadiusAdjustBounds="true"
+            app:qmui_radius="15dp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="色盲/色弱眼镜是否有效？"
+            android:layout_gravity="center"
+            android:textColor="@color/qmui_s_link_color"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="35dp"
+            android:textSize="36sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:textSize="24sp"
+            android:textColor="@color/qmui_s_link_color"
+            android:text="        先天性色盲/色弱是具有遗传性的，难以用药物和手术治疗。但是可以通过佩戴色盲角膜接触镜，来改善看东西的色觉，比如镜片匹配一定的绿色，可以辅助治疗绿色色盲/色弱。但这个需要去专业的眼科，在医生指导下进行相关的检查和色觉匹配，不要盲目相信市场上销售的色盲眼镜。"
+            tools:ignore="MissingConstraints"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
